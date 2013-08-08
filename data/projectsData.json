@@ -1,0 +1,337 @@
+[
+    {
+        "projectName": "Chess Clock App",
+        "projectID": "chessClockApp",
+        "thumbURL": "img/thumbs/chessClockThumb.jpg",
+        "techUsed": "ActionScript 3/Adobe AIR",
+        "projectDescription": "Built for the BlackBerry Playbook as part of the Blackberry Playbook Challenge, this game clock can be laid flat on a table beside a game board giving both players a clear view of their and their opponent's remaining times. The clock can be used to play games with five separate timing modes: Sudden Death, Fischer, Bronstein, Simple Delay or Word. The clock notifies players with visual and optional audio feedback when the clock has been tapped, the game goes into overtime or either player's time has expired. Chess Clock's initial release was developed in a short span of time in order to take part in Research In Motion's BlackBerry Playbook Challenge.",
+        "slides": [
+            "img/large/chessClock01.jpg",
+            "img/large/chessClock02.jpg",
+            "img/large/chessClock03.jpg",
+            "img/large/chessClock04.jpg",
+            "img/large/chessClock05.jpg",
+            "img/large/chessClock06.jpg",
+            "img/large/chessClock07.jpg"
+        ]
+    },
+    {
+        "projectName": "Verizon Sales Zone",
+        "projectID": "vzSalesZone",
+        "thumbURL": "img/thumbs/VzSalesZoneThumb.jpg",
+        "techUsed": "Flash/ActionScript 3/XML.",
+        "projectDescription": "The better part of my work at Jack Morton Worldwide involved maintaining and modifying the Verizon Sales Zone, a website used by Verizon Telecom sales reps. The site provides information about product packages, special offers and sales techniques, as well as interactive tools for comparing and calculating the cost of different packages so this information can be provided to telephone customers on the fly. As the content for the sites requires regular updates but for internal reasons cannot be connected to a database, the assets are cataloged in an XML document that is parsed by the application before assets are loaded. It is worth noting that I have worked with three versions of this kit. The version I inherited was coded in ActionScript 2, which I soon re-wrote in ActionScript 3. When I was hired an update for the AS2 version of the kit would take the better part of a week to do. Now, due to my redesigning and streamlining the update process, an update can be handled in the course of a single day.",
+        "slides": [
+            "img/large/VzSalesZone01.jpg",
+            "img/large/VzSalesZone02.jpg",
+            "img/large/VzSalesZone03.jpg",
+            "img/large/VzSalesZone04.jpg",
+            "img/large/VzSalesZone05.jpg",
+            "img/large/VzSalesZone06.jpg",
+            "img/large/VzSiteTools01.jpg",
+            "img/large/VzSiteTools02.jpg",
+            "img/large/VzSiteTools03.jpg",
+            "img/large/VzSiteTools04.jpg",
+            "img/large/VzSiteTools05.jpg",
+            "img/large/VzSiteTools06.jpg",
+            "img/large/VzSiteTools07.jpg"
+        ]
+
+    },
+    {
+        "projectName": "Verizon FiOS Quantum App",
+        "projectID": "vzQuantumApp",
+        "thumbURL": "img/thumbs/fiosQuantumThumb.jpg",
+        "techUsed": "ActionScript 3/Adobe AIR",
+        "projectDescription": "This mobile application built for Android tablets (using Adobe AIR), and desktop browsers (as Flash content) was used to promote Verizon's launch of FiOS Quantum. The app includes videos (using the Video or StageVideo class based on device capabilities), a custom video player, interactive content developed in-house and  also incorporates content developed independently by another agency.",
+        "slides": [
+            "img/large/fiosQuantum01.jpg",
+            "img/large/fiosQuantum02.jpg",
+            "img/large/fiosQuantum03.jpg",
+            "img/large/fiosQuantum04.jpg",
+            "img/large/fiosQuantum05.jpg"
+        ]
+    },
+    {
+        "projectName": "Jack Morton Holiday Card",
+        "projectID": "jmwHolidayCard",
+        "thumbURL": "img/thumbs/VzHolidayCardThumb.jpg",
+        "techUsed": "Flash/ActionScript 3, MailChimp.",
+        "projectDescription": "This holiday card was sent by the Verizon team at Jack Morton to Verizon executives and the numerous other people at Verizon we work with. Teaser emails were sent out with links to the animated card. Using MailChimp, an online application for managing email campaigns, the links were personalized with URL variables for each recipient's first and last names. The Flash content then extracted the URL variables in order to personalize the greeting's message. The card featured a mobile phone falling into a snowbank beside an ornament with the Verizon logo on it. On the phone's screen a texting app is already opened with the \"To:\" field pre-populated with the recipient's first and last names. Then a message is typed out, the soft keyboard keys highlighting as the letters appear in the texting app. The message ended with a smiley version of Jack Morton's logo that transforms into the actual Jack Morton logo, filling the screen.",
+        "slides": [
+            "img/large/VzHolidayCard01.jpg",
+            "img/large/VzHolidayCard02.jpg",
+            "img/large/VzHolidayCard03.jpg",
+            "img/large/VzHolidayCard04.jpg",
+            "img/large/VzHolidayCard05.jpg"
+        ]
+    },
+    {
+        "projectName": "MetroSaver",
+        "projectID": "metroSaver",
+        "thumbURL": "img/thumbs/metroSaverThumb.jpg",
+        "techUsed": "MetroSaver App: ActionScript 3/Adobe AIR for Android.",
+        "projectDescription": "MetroSaver, a free Android App, helps users save money spent on a NYC MetroCard by calculating how much money to add to a Pay-Per-Ride card so that the balance can all be used on fares, leaving nothing behind. The MTA's method for calculating MetroCard balances and bonusescan make it difficult to achieve a balance that divide evenly by the price of a fare, ultimately leaving a balance of $0 (as opposed to $1.12, for example). MetroSaver solves this problem for bus and subway riders.",
+        "slides": [
+            "img/large/metroSaver01.jpg",
+            "img/large/metroSaver02.jpg",
+            "img/large/metroSaver03.jpg",
+            "img/large/metroSaver04.jpg",
+            "img/large/metroSaverIcon.png"
+        ]
+    },
+    {
+        "projectName": "RedBox Billionth Rental Animation",
+        "projectID": "redBoxBillionthRental",
+        "thumbURL": "img/thumbs/redBoxBillionThumb.jpg",
+        "techUsed": "Flash/ActionScript 3/PHP/MySQL.",
+        "projectDescription": "Worked with the Dikkers Cartoon Company to produce an interactive feature on Redbox's website announcing their billionth rental. The feature displayed a growing stack of DVD boxes, on top of which perched Redbox's CEO in a space suit. After the animation had played, a user could upload and position a photo of themself, and the animation would replay displaying their face inside the helmet of the space suit. By filling out a short form, a unique URL could be sent to friends that launched the site displaying the personalized animation with the sender's photo in place.",
+        "slides": [
+            "img/large/redBoxBillion01.jpg",
+            "img/large/redBoxBillion02.jpg",
+            "img/large/redBoxBillion03.jpg",
+            "img/large/redBoxBillion04.jpg",
+            "img/large/redBoxBillion05.jpg",
+            "img/large/redBoxBillion06.jpg"
+        ]
+    },
+    {
+        "projectName": "Verizon Wireless Holiday 2010 Site",
+        "projectID": "vzHolidaySite",
+        "thumbURL": "img/thumbs/verizonHolidaySiteThumb.jpg",
+        "techUsed": "Flash/ActionScript 3.",
+        "projectDescription": "With the Holidays following close on the heels of Verizon's \"Rule The Air\" campaign, Verizon Wireless wanted a site to inform their sales reps about the various new phones available which would be able to take advantage of the new 4G LTE network. This site, built entirely in Flash/AS3 incorporated content developed in-house and by a partnering digital agency. The Gaia Flash Framework was used to provide deep linking.",
+        "slides": [
+            "img/large/verizonHolidaySite01.jpg",
+            "img/large/verizonHolidaySite02.jpg",
+            "img/large/verizonHolidaySite03.jpg",
+            "img/large/verizonHolidaySite04.jpg",
+            "img/large/verizonHolidaySite05.jpg",
+            "img/large/verizonHolidaySite06.jpg"
+        ]
+    },
+    {
+        "projectName": "Dikkers Cartoon Company Video Player",
+        "projectID": "dikkersVideoPlayer",
+        "thumbURL": "img/thumbs/dikkersThumb.jpg",
+        "techUsed": "Flash/ActionScript 3/XML.",
+        "projectDescription": "A custom video player with a full set of audio and playback controls. The video player rotates videos, offers code for embedding the videos in a separate site, and provides options for sharing the video on numerous social sites or directly with friends via email.",
+        "slides": [
+            "img/large/dikkers01.jpg",
+            "img/large/dikkers02.jpg",
+            "img/large/dikkers03.jpg",
+            "img/large/dikkers04.jpg",
+            "img/large/dikkers05.jpg",
+            "img/large/dikkers06.jpg",
+            "img/large/dikkers07.jpg"
+        ]
+    },
+    {
+        "projectName": "Verizon Rule The Air Launch Site",
+        "projectID": "vzRuleTheAirSite",
+        "thumbURL": "img/thumbs/verizonRTAThumb.jpg",
+        "techUsed": "Flash/ActionScript 3/XML/PHP/MySQL.",
+        "projectDescription": "I led coding and development of this site announcing Verizon's launch of their \"Rule The Air\" campaign to all internal employees. I developed the site's framework and integrated site content developed by other team members. As part of the launch site, I created an application that allowed users to create a \"postcard\" by layering different elements related to the \"Rule The Air\" campaign (e.g., slogans, icons, iconic backgrounds, images of models/figures used in the campaign). Leveraging custom AS3 classes for creating JPEGs out of BitmapData, PHP and MySQL, the postcard could then be sent to the email addresses of friends or fellow employees from within the application.",
+        "slides": [
+            "img/large/verizonRTA01.jpg",
+            "img/large/verizonRTA02.jpg",
+            "img/large/verizonRTA03.jpg",
+            "img/large/verizonRTA04.jpg",
+            "img/large/verizonRTA05.jpg",
+            "img/large/verizonRTA06.jpg",
+            "img/large/verizonRTA07.jpg"
+        ]
+    },
+    {
+        "projectName": "Angelina Ballerina on PBSKids.org",
+        "projectID": "angelinaBallerina",
+        "thumbURL": "img/thumbs/angelinaThumb.jpg",
+        "techUsed": "Flash/ActionScript 3/XML.",
+        "projectDescription": "For the Angelina Ballerina site for PBSKids.org I built out all pages so that many of the assets and copy on each load in via external XML files. The videos that appear on the landing page, characters and their descriptions on the Angelina & Friends page, games and activities on the Games & Activities page and the descriptions of each episode in the Episode Guide on the Parents page are all determined in external XML files. In addition to building out each page and coding animations and events, I also had to port pre-existing games and activities over from the AngleinaBallerina.com site, which presented a small challenge. Since the site for which they were originally built, AngelinaBallerina.com, was built as a series of separate .asp pages in order to satisfy site analytics requirements, aspects of the games had to be re-coded so that trying to load, quit or replay them did not cause the same outcomes as they had on the original .asp site, where, for example, instead of just the game reloading the entire page would reload.",
+        "slides": [
+            "img/large/angelina01.jpg",
+            "img/large/angelina02.jpg",
+            "img/large/angelina03.jpg",
+            "img/large/angelina04.jpg",
+            "img/large/angelina05.jpg"
+        ]
+    },
+    {
+        "projectName": "BobTheBuilder.com",
+        "projectID": "bobTheBuilder",
+        "thumbURL": "img/thumbs/bobBuilder01.jpg",
+        "techUsed": "Flash/ActionScript 3.",
+        "projectDescription": "Updated site's landing page and interior pages when new characters were introduced to the Bob the Builder children's show, and to reflect changes in season. Built a recycling game which led users through the process of building a recycling center and wind farm with Bob & his construction vehicle friends.",
+        "slides": [
+            "img/large/BobHome03.jpg",
+            "img/large/BobActivities01.jpg",
+            "img/large/BobActivities03.jpg",
+            "img/large/BobRecycling05.jpg",
+            "img/large/BobRecycling01.jpg",
+            "img/large/BobRecycling02.jpg",
+            "img/large/BobRecycling03.jpg",
+            "img/large/BobRecycling04.jpg"
+        ]
+    },
+    {
+        "projectName": "Times Square Wheel",
+        "projectID": "timesSquareWheel",
+        "thumbURL": "img/thumbs/tsWheelThumb.jpg",
+        "techUsed": "Flash/ActionScript 3.",
+        "projectDescription": "A Consumer's Guide to Times Square Advertising: The Times Square Advertising Wheel was one of the first Flash projects I worked on and was initially built using AS2. Unable to locate the original files for my portfolio, I decompiled a copy of the SWF so that I might re-work the code in AS3. Originally, some helpful soul on a Flash forum had provided me with the code used to rotate the wheel when a user drags their mouse on its edge. I wanted to re-write the code in AS3 because I knew it would make use of some of the methods of the AS3 Math class, which are of interest to me.",
+        "slides": [
+            "img/large/tsWheel01.jpg",
+            "img/large/tsWheel02.jpg"
+        ]
+    },
+    {
+        "projectName": "Op.com",
+        "projectID": "op",
+        "thumbURL": "img/thumbs/op01.jpg",
+        "techUsed": "Flash/ActionScript/ASP/MS SQL.",
+        "projectDescription": "I built and maintained the site for the site for Op, a fashion brand for young men and women, through regular updates. Site content included pages highlighting current brand offerings by gender, branded video content, an email newsletter sign-up form and downloadable content, e.g., branded desktop wallpapers and gift tags. Additionally, I programmed a photo gallery which allowed users to upload their own Op-related photos. The photos were then automatically duplicated and re-sized at thumbnail and larger sizes. The client was able to review submissions using a custom back-end. After review, if approved, the photos would be visible in the site's photo gallery.",
+        "slides": [
+            "img/large/OpHomePage.jpg",
+            "img/large/OpHolidayWishListHis.jpg",
+            "img/large/OpGiveOp.jpg",
+            "img/large/OpJoinTeamOpForm.jpg",
+            "img/large/OpPhotoOpForm.jpg"
+        ]
+    },
+    {
+        "projectName": "Candies.com",
+        "projectID": "candies",
+        "thumbURL": "img/thumbs/candies01.jpg",
+        "techUsed": "Flash/ActionScript 3.",
+        "projectDescription": "I built and maintained the site for Candies, a young women's fashion brand, through regular updates. Site content included pages highlighting current brand offerings, video and picture galleries, contest application forms, and downloadable content, e.g., wallpapers and buddy icons. The contest forms were coded to validate guarantee submission of all required elements.",
+        "slides": [
+            "img/large/CandiesHome.jpg",
+            "img/large/CandiesBehindTheScenes.jpg",
+            "img/large/CandiesDownloads.jpg",
+            "img/large/CandiesDressingRoom.jpg",
+            "img/large/CandiesAsSeenIn.jpg",
+            "img/large/CandiesJoinCMail.jpg",
+            "img/large/CandiesTheCandiesGirl.jpg",
+            "img/large/CandiesWhatsNew.jpg"
+        ]
+    },
+    {
+        "projectName": "Banner Ads",
+        "projectID": "bannerAds",
+        "thumbURL": "img/thumbs/vojoThumb.jpg",
+        "techUsed": "Flash/ActionScript 3/XML, Photoshop, Illustrator.",
+        "projectDescription": "A sampling of larger banners built for clients. The banner for Vojo Games loads assets from an XML file which allows the client to regularly update the banner without having to rebuild the SWF. In the AESC conference banner all animations are coded. The AESC Executive Profiles banner is animated wholly on the timeline.",
+        "slides": [
+            "img/large/vojo01.png",
+            "img/large/vojo02.jpg",
+            "img/large/AESCConferenceBanner.png",
+            "img/large/AESCExecutivesBanner.png"
+        ]
+    },
+    {
+        "projectName": "XDRTB/TED Prize",
+        "projectID": "xdrtbTedPrize",
+        "thumbURL": "img/thumbs/xdrtb01.jpg",
+        "techUsed": "Flash/ActionScript/XML.",
+        "projectDescription": "For the XDRTB.org site (XDR-TB is Extremely Drug-Resistant Tuberculosis), developed after photographer James Nachtwey won the prestigious TED prize, I developed custom photo gallery and video player and a form which enabled users to email information about XDRTB.org to others or embed related video content on their site or blog.",
+        "slides": [
+            "img/large/XDRTB01.jpg",
+            "img/large/XDRTB02.jpg",
+            "img/large/XDRTB03.jpg",
+            "img/large/XDRTB04.jpg"
+        ]
+    },
+    {
+        "projectName": "ThomasAndFriends.com: Thomas Photo Uploader",
+        "projectID": "thomasPhotoUploader",
+        "thumbURL": "img/thumbs/thomasPhoto01.jpg",
+        "techUsed": "ASP/MS SQL/XHTML.",
+        "projectDescription": "Using custom components, I built a photo uploader/resizer for ThomasAndFriends.com, the site for Thomas the Tank Engine. The photo uploader allowed users to upload photos of their children interacting with Thomas the Tank Engine products or in Thomas-related settings for display in one of four different photo galleries. New galleries created and swapped in to accommodate photos related to changes in season or holidays. I also built a custom back-end allowing the client to securely review uploaded photos for approval prior to their being posted on the site. Additionally, I created a form which gave users the ability to send emails containing links to gallery photos directly from gallery photo pages.",
+        "slides": [
+            "img/large/ThomasPhoto01.jpg",
+            "img/large/ThomasPhoto02.jpg",
+            "img/large/ThomasPhoto03.jpg",
+            "img/large/ThomasPhoto04.jpg"
+        ]
+    },
+    {
+        "projectName": "Prescriptives",
+        "projectID": "prescriptives",
+        "thumbURL": "img/thumbs/prescriptives01.jpg",
+        "techUsed": "Illustrator.",
+        "projectDescription": "During my tenure in Prescriptives' Visual Merchandising department, I was responsible for providing illustrations of all Prescriptives products and illustrations and elevations of every manner of display to be used for these products including product testers, display at counter, special event in-store displays and store window displays.",
+        "slides": [
+            "img/large/Prescriptives01.jpg",
+            "img/large/Prescriptives02.jpg",
+            "img/large/Prescriptives03.png",
+            "img/large/Prescriptives04.png",
+            "img/large/Prescriptives05.png",
+            "img/large/Prescriptives06.jpg"
+        ]
+    },
+    {
+        "projectName": "ThomasAndFriends.com",
+        "projectID": "thomasAndFriends",
+        "thumbURL": "img/thumbs/thomas01.jpg",
+        "techUsed": "Flash/ActionScript/XML",
+        "projectDescription": "For Thomas the Tank Engine I was responsible for maintaining, updating and creating content across several different aspects of the site. I built two of the site's landing pages based on illustrator files provided by the client. The most recent of the two also features Thomas delivering a voice-over where specific vowel and consonant sounds are synched with corresponding facial gestures. In addition to the two home page builds, I also handled changes and updates to content, usually resulting from new product launches, special holiday offerings or film and video releases.",
+        "slides": [
+            "img/large/ThomasHome01.jpg",
+            "img/large/ThomasHome02.jpg",
+            "img/large/ThomasHoliday01.jpg",
+            "img/large/ThomasHoliday02.jpg",
+            "img/large/ThomasHoliday03.jpg",
+            "img/large/ThomasTrackmaster01.jpg"
+        ]
+    },
+    {
+        "projectName": "RxMosaicHealth.com",
+        "projectID": "rxMosaicHealth",
+        "thumbURL": "img/thumbs/rxMosaic01.jpg",
+        "techUsed": "XHTML/CSS/Flash",
+        "projectDescription": "Apart from the Flash introduction requested by the client, the build of the RxMosaic Health site is fairly straightforward, incorporating XHTML, CSS and some light JavaScript. However the client requested that the opening Flash intro fade out completely at its conclusion, which was not easily worked out cross-browser. The solution required some coded slight-of-hand involving browser detection and a second Flash intro which duplicated the site's XHTML/CSS landing page in Flash.",
+        "slides": [
+            "img/large/RxMosaic01.jpg",
+            "img/large/RxMosaic02.jpg",
+            "img/large/RxMosaic03.jpg",
+            "img/large/RxMosaic04.jpg",
+            "img/large/RxMosaic05.jpg",
+            "img/large/RxMosaic06.jpg"
+        ]
+    },
+    {
+        "projectName": "PoetryProject.com",
+        "projectID": "poetryProject",
+        "thumbURL": "img/thumbs/poetryProject01.jpg",
+        "techUsed": "PHP/MySQL/XHTML/CSS.",
+        "projectDescription": "I designed and built a site for the Poetry Project, a not-for-profit arts organization, using standards-based CSS layout techniques. The site's content was managed by the client using a custom-built CMS solution which allowed them to easily input and administer several different types of content including their events calendar, articles, news items, workshop outlines, auction item descriptions and photos, and downloadable archived publications.",
+        "slides": [
+            "img/large/PoetryProject01.jpg",
+            "img/large/PoetryProject02.jpg",
+            "img/large/PoetryProject03.jpg",
+            "img/large/PoetryProject04.jpg",
+            "img/large/PoetryProject05.jpg"
+        ]
+    },
+    {
+        "projectName": "Illustration: Various",
+        "projectID": "illustration",
+        "thumbURL": "img/thumbs/illustrations.jpg",
+        "techUsed": "Illustrator.",
+        "projectDescription": "A collection of numerous illustrations done both for clients and for my own enjoyment. Among them are several for Estee Lauder showing holders for compact perfume, one for a joint project between Travellers & IBM, portraits of friends and a friend's dog, and as yet uncompleted illustrations of Paul Manship's statue Group of Bears at the Metropolitan Museum of Art and the statue of Jose Marti on horseback on Central Park South.",
+        "slides": [
+            "img/large/Illustration_Sirius.jpg",
+            "img/large/Illustration_IBMUmbrella.jpg",
+            "img/large/Illustration_Lizard.jpg",
+            "img/large/Illustration_Portraits01.jpg",
+            "img/large/Illustration_Portraits02.jpg",
+            "img/large/Illustration_Portraits03.jpg",
+            "img/large/Illustration_Portraits04.jpg",
+            "img/large/Illustration_Estee01.png",
+            "img/large/Illustration_Bears01.jpg",
+            "img/large/Illustration_Bears02.jpg",
+            "img/large/Illustration_Statue.jpg",
+            "img/large/Illustration_Clock.jpg"
+        ]
+    }
+]

@@ -1,0 +1,277 @@
+@import 'common.scss';
+
+$project-description-background: rgba(207, 222, 199, 0.95);
+$project-description-background-hover: rgba(187, 202, 179, 0.95);
+
+#main {
+
+  .project-panel {
+	background-color: $portfolio-light;
+	position: absolute;
+	top: 0;
+	z-index: 50;
+	overflow: hidden;
+	width: 100%;
+	height: 100%;
+	display: none;
+
+	.project-close {
+	  position: absolute;
+	  z-index: 60;
+	  width: 40px;
+	  height: 40px;
+	  top: 0;
+	  right: 0;
+	  background: url('../img/icons.png') no-repeat 7.5px 0;
+	  display: block;
+	  border: none;
+	  cursor: pointer;
+	}
+
+	.project-description {
+	  position: relative;
+	  z-index: 61;
+	  top: 100%;
+	  height: 100%;
+	  //max-height: 100%;
+	  width: 100%;
+	  margin: -40px 0 0 0;
+	  padding: 0 10px 10px 10px;
+	  border-radius: 5px;
+	  overflow: hidden;
+	  @extend %translateZ;
+	  //TODO: All? Really?
+	  transition: all .2s;
+	  -webkit-transition: all .2s;
+	  background-color: rgba(207, 222, 199, 0);
+
+	  @media only screen and (min-width: 768px) and (min-height: 768px) {
+		margin: -50px 0 0 0;
+	  }
+	  .info-button {
+		position: absolute;
+		z-index: 62;
+		top: 0;
+		right: 0;
+		width: 40px;
+		height: 40px;
+		background: $project-description-background url('../img/icons.png') no-repeat -43px -120px;
+		border-radius: 10px 0 0 0;
+		cursor: pointer;
+
+		@media only screen and (min-width: 768px) and (min-height: 768px) {
+		  top: 10px;
+		}
+	  }
+
+	  .description-text {
+		padding: 0 25px 30px 20px;
+		width: 100%;
+		height: 100%;
+		overflow-x: hidden;
+		overflow-y: auto;
+		-webkit-overflow-scrolling: touch;
+		transition: opacity .3s;
+		-webkit-transition: opacity .3s;
+		opacity: 1;
+
+		.project-title {
+		  position: relative;
+		  height: 40px;
+		  width: auto;
+		  max-width: 70%;
+		  margin: 0 0 0 0;
+		  padding: 8px 0 7px 0;
+		  font-family: $sans_face;
+		  font-size: 20px;
+		  font-weight: 800;
+		  text-overflow: ellipsis;
+		  color: $portfolio-dark;
+		  background-color: $project-description-background;
+		  border-radius: 0 10px 0 0;
+		  overflow: hidden;
+		  white-space: nowrap;
+		  cursor: pointer;
+
+		  @media only screen and (max-height: 320px) and (orientation: landscape) {
+			transition: opacity .3s;
+			-webkit-transition: opacity .3s;
+			opacity: 0;
+		  }
+
+		  @media only screen and (orientation: portrait) {
+			max-width: 95%;
+		  }
+
+		  @media only screen and (min-width: 768px) and (min-height: 768px) {
+			height: 50px;
+			font-size: 30px;
+		  }
+		}
+
+		p {
+		  font-family: $sans_face;
+		  font-weight: 300;
+		  font-size: 16px;
+		  padding: 0;
+		  margin: 0;
+		  white-space: normal;
+		}
+	  }
+	}
+
+	.project-description.shown {
+	  background: $project-description-background;
+	  margin: 0;
+
+	  .info-button {
+		background-position: 7.5px -200px;
+		background-color: transparent;
+	  }
+
+	  .description-text {
+		opacity: 1;
+
+		.project-title {
+		  background-color: transparent;
+		  height: auto;
+		  width: auto;
+		  max-width: 90%;
+		  white-space: normal;
+		  line-height: 1.3;
+		  opacity: 1;
+		}
+	  }
+	}
+
+	.slide-carousel {
+	  position: absolute;
+	  top: 0;
+	  left: 0;
+	  z-index: 55;
+	  width: 100%;
+	  height: 100%;
+	  max-height: 1000px;
+	  @extend %translateZ;
+
+	  .project-slide {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		max-width: 996px;
+		cursor: pointer;
+		opacity: 0;
+		transition: opacity $easeOutBack .5s;
+		-webkit-transition: opacity $easeOutBack .5s;
+
+		img {
+		  position: absolute;
+		  top: 50%;
+		  left: 50%;
+		  max-width: 90%;
+		  max-height: 90%;
+		  box-shadow: 0 3px 4px 2px rgba(64, 64, 64, 0.7);
+		  -moz-box-shadow: 0 3px 4px 2px rgba(64, 64, 64, 0.7);
+		  -webkit-box-shadow: 0 3px 4px 2px rgba(64, 64, 64, 0.7);
+		  @extend %unselectable;
+		}
+	  }
+
+	  .project-slide.current {
+		opacity: 1;
+	  }
+	}
+
+	.slide-button {
+	  position: absolute;
+	  z-index: 63;
+	  top: 50%;
+	  width: 40px;
+	  height: 40px;
+	  padding: 10px 0 0 10px;
+	  margin: -20px 0 0 0;
+	  border-radius: 20px;
+	  background: $project-description-background url('../img/icons.png') no-repeat;
+	  cursor: pointer;
+
+	}
+
+	.slide-button:hover {
+	  @media #{$min768} {
+		background-color: $project-description-background-hover;
+	  }
+	}
+
+	.slide-button.hidden {
+	  bottom: -40px;
+	}
+
+	#prev-button.slide-button {
+	  left: 0;
+	  background-position: 7.5px -80px;
+
+	  @media only screen and (orientation: landscape) {
+		left: auto;
+		right: 140px;
+		top: auto;
+		bottom: 0;
+	  }
+	}
+
+	#next-button.slide-button {
+	  right: 0;
+	  background-position: 7.5px -120px;
+
+	  @media only screen and (orientation: landscape) {
+		right: 80px;
+		top: auto;
+		bottom: 0;
+	  }
+	}
+
+	.slide-carousel:after {
+	  content: "";
+	  display: table;
+	  clear: both;
+	}
+  }
+
+  .project-panel.shown {
+	display: block;
+  }
+
+  .sliding-panel#projects-panel {
+
+	.content-pane {
+
+	  .content-container {
+
+		.thumb {
+		  float: left;
+		  border: none;
+
+		  //rows of two
+		  @media #{$portrait} {
+			margin: 0 4% 4% 0;
+			width: 46%;
+		  }
+
+		  //rows of three
+		  @media only screen and (orientation: landscape), only screen and (min-width: 320px) and (max-width: 744px) {
+			margin: 0 2% 2% 0;
+			width: 31%;
+		  }
+
+		  //rows of four
+		  @media only screen and (min-width: 745px) {
+			margin: 0 2% 2% 0;
+			width: 23%;
+		  }
+		}
+	  }
+	}
+  }
+}
+
+
+

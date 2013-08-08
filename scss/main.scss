@@ -1,0 +1,217 @@
+@import 'common.scss';
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -webkit-tap-highlight-color: transparent;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background-color: #aabb43;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+#main {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  min-width: 240px;
+  min-height: 222px;
+  max-width: 996px;
+  max-height: 1000px;
+  margin: 0 auto 0 auto;
+  overflow: hidden;
+
+  #site-title {
+	position: absolute;
+	z-index: 5;
+	top: 0;
+	left: 0;
+	background-repeat: no-repeat;
+	background-size: contain;
+
+	@media #{$landscape} {
+	  width: 5%;
+	  height: 100%;
+	  background-position: 100% 0%;
+	  background-image: url('../img/header_V.png');
+	}
+
+	@media #{$portrait} {
+	  width: 100%;
+	  height: 6%;
+	  background-position: 100% 100%;
+	  background-image: url('../img/header_H.png');
+	}
+
+	@media only screen and (orientation: portrait) and (min-height: 834px) {
+	  height: 5%;
+	}
+  }
+
+  .nav {
+	position: absolute;
+	z-index: 35;
+	width: 10%;
+	height: 100%;
+
+	@media #{$landscape} {
+	  top: 0;
+	  left: 5%;
+	}
+
+	@media #{$portrait} {
+	  top: 6%;
+	  left: 0;
+	}
+	@media only screen and (max-width:319px) {
+	  width: 15%;
+	}
+
+	@media only screen and (min-width: 320px) and (max-width:400px) {
+	  width: 13%;
+	}
+
+	@media only screen and (min-width: 400px) {
+	  width: 8%;
+	}
+
+	.panel-title {
+	  width: 100%;
+	  height: 10%;
+	  min-height: 45px;
+	  max-height: 55px;
+	  margin: 0;
+	  padding: 0;
+	  font-family: 'biz_icons';
+	  font-size: 1.8em;
+	  line-height: 1.8em;
+	  color: white;
+	  text-align: center;
+	  cursor: pointer;
+	  @extend %unselectable;
+	}
+
+	.panel-title.selected#portfolio {
+		color: $portfolio-dark;
+	}
+
+	.panel-title.selected#info {
+		color: $info-dark;
+	}
+
+	.panel-title.selected#contact {
+		color: $contact-dark;
+	}
+  }
+
+  .sliding-panel {
+	position: absolute;
+	z-index: 30;
+	padding-left: 10%;
+	@extend %translateZ;
+
+	@media #{$landscape} {
+	  top: 0;
+	  left: 5%;
+	  width: 95%;
+	  height: 100%;
+	}
+
+	@media #{$portrait} {
+	  top: 6%;
+	  left: 0%;
+	  width: 100%;
+	  height: 94%;
+	}
+
+	@media only screen and (orientation: portrait) and (min-height: 834px) {
+	  top: 5%;
+	  height: 95%;
+	}
+
+	@media only screen and (max-width:319px) {
+	  padding-left: 15%;
+	}
+
+	@media only screen and (min-width: 320px) and (max-width:400px) {
+	  padding-left: 13%;
+	}
+
+	@media only screen and (min-width: 400px) {
+	  padding-left: 8%;
+	}
+
+	.content-pane {
+	  position: relative;
+	  overflow: hidden;
+	  display: none;
+
+	  .content-container {
+		width: auto;
+		height: auto;
+	  }
+	}
+  }
+
+  .sliding-panel.panel-shown {
+	z-index: 31;
+	display: block;
+
+	.content-pane {
+	  width: 100%;
+	  height: 100%;
+	  overflow: hidden;
+	  display: block;
+
+	  .content-container {
+		width: 100%;
+		height: 100%;
+		padding: 10px 0 5px 0;
+		overflow-x: hidden;
+		overflow-y: auto;
+		-webkit-overflow-scrolling: touch;
+	  }
+	}
+  }
+
+  .sliding-panel.panel-hidden {
+	display: none;
+  }
+
+  .sliding-panel#projects-panel {
+	background-color: $portfolio-light;
+  }
+
+  .sliding-panel#info-panel {
+	background-color: $info-light;
+
+	.pane {
+	  background-color: $info-light;
+
+	  .slider {
+		background-color: $info-dark;
+	  }
+	}
+  }
+
+  .sliding-panel#contact-panel {
+	background-color: $contact-light;
+  }
+}
+
+/* Overthrow CSS:
+   Enable overflow: auto on elements with overthrow class when html element has overthrow class too */
+.overthrow-enabled .overthrow {
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+}

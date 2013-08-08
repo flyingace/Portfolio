@@ -1,0 +1,19 @@
+<div id="form-wrapper">
+    <form id="contact-form" action="" method="post">
+        <label>*Name:</label><input type="text" name="name" id="contact-name" autofocus/>
+        <label>Company:</label><input type="text" name="company" id="contact-company"/>
+        <label>*Email:</label><input type="text" name="email" id="contact-email"/>
+        <label>Phone:</label><input type="text" name="phone" id="contact-phone"/>
+        <label>*Message:</label><textarea rows="4" name="message" id="contact-message"></textarea>
+        <label id="nobotsLabel">Wait a second&#8212;you're not a robot, are you? Then tell me this: If Jimmy has five
+            apples and then two more apples arrive for him in the mail two days later, how many apples will Jimmy
+            have?</label><input type="text" name="apples" id="contact-apples" style="float:right;" autocomplete="off"
+                                autocorrect="off"/>
+        <input type="button" value="Send" id="contact-submit"/>
+
+        <div class="clearfix"></div>
+    </form>
+    <div id="status-frame" class="hidden">
+        <div id="status">Sending...</div>
+    </div>
+</div>

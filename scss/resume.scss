@@ -1,0 +1,123 @@
+@import 'common.scss';
+
+#main {
+
+  .sliding-panel#info-panel {
+
+	.content-pane {
+
+	  .content-container {
+
+		div#resume {
+
+		  font-family: $sans_face;
+		  font-weight: 300;
+		  color: $info-dark;
+		  font-size: 16px;
+		  padding: 0 5% 0 0;
+
+		  strong {
+			font-weight: 600;
+		  }
+
+		  em {
+			font-style: italic;
+		  }
+
+		  .intro {
+			font-size: 16px;
+			line-height: 1.4;
+			margin: 0 0 8px 0;
+			text-align: left;
+		  }
+
+		  .job {
+			//color: #2E504C;
+			//background-color: #BAC8C6;
+			width: 100%;
+			height: auto;
+			margin: 0 0 3px 0;
+			padding: 2px 8px;
+			border-radius: 3px;
+			-moz-border-radius: 3px;
+			-webkit-border-radius: 3px;
+			overflow: hidden;
+			clear: both;
+			transition: all .2s;
+
+			.job-head {
+			  height: auto;
+
+			  .job-dates {
+				width: 100px;
+				margin: 0 10px 0 0;
+				clear: right;
+				@extend %unselectable;
+
+				@media #{$min1024} {
+				  clear: none;
+				  float: left;
+				}
+			  }
+
+			  .job-title {
+				font-weight: 600;
+				font-size: 16px;
+				height: auto;
+				@extend %unselectable;
+
+				@media #{$min1024} {
+				  float: left;
+				}
+			  }
+			}
+
+			.job-head:after {
+			  content: "";
+			  display: table;
+			  clear: both;
+			}
+
+			.job-desc {
+			  clear: both;
+			  display: none;
+			  @extend %unselectable;
+
+			  p {
+				margin: 4px 0 0 0;
+				line-height: 1.4;
+				@extend %unselectable;
+			  }
+			}
+		  }
+
+		  .job.hover {
+			color: $info-light;
+			background-color: $info-dark;
+			padding: 10px 8px;
+		  }
+
+		  .job.selected {
+			color: $info-dark;
+			background-color: transparent;
+			padding: 9px 7px;
+			border: 1px solid $info-dark;
+
+			.job-desc {
+			  display: block;
+			}
+		  }
+
+		  p.section-title {
+			margin: 6px 0 0 0;
+			font-weight: 600;
+		  }
+
+		  p.section-title + p {
+			margin: 0 0 4px 0;
+		  }
+		}
+	  }
+	}
+  }
+}
