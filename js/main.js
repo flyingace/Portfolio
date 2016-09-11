@@ -12,7 +12,7 @@ require.config({
         text: 'libs/require/text',
 
         // jQuery plugins
-        nanoscroller: 'libs/nanoscroller/jquery-nanoscroller',
+        nanoscroller: 'libs/nanoscroller/jquery.nanoscroller',
         overthrow: 'libs/nanoscroller/overthrow',
 
 

@@ -14,7 +14,7 @@
 		  font-weight: 300;
 		  color: $info-dark;
 		  font-size: 16px;
-		  padding: 0 5% 0 0;
+		  padding: 2% 5% 0 0;
 
 		  strong {
 			font-weight: 600;
@@ -23,6 +23,24 @@
 		  em {
 			font-style: italic;
 		  }
+
+          p {
+            margin: 0;
+          }
+
+          p a {
+            color: white;
+            text-decoration: none;
+          }
+
+          p a:hover {
+            text-decoration: underline;
+          }
+
+          hr {
+            border-top-color: $info-dark;
+            margin: .6em 0;
+          }
 
 		  .intro {
 			font-size: 16px;
@@ -116,6 +134,16 @@
 		  p.section-title + p {
 			margin: 0 0 4px 0;
 		  }
+
+          #linkedIn-link {
+            padding-left: 20px;
+            background: url('../img/InBug-16px_0.png') no-repeat 0 3px;
+          }
+
+          #gitHub-link {
+            padding-left: 20px;
+            background: url('../img/GitHub-Mark-16px.png') no-repeat 0 3px;
+          }
 		}
 	  }
 	}

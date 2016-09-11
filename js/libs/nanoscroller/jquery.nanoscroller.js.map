@@ -1,0 +1,789 @@
+
+
+
+<!DOCTYPE html>
+<html>
+  <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# githubog: http://ogp.me/ns/fb/githubog#">
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>nanoScrollerJS/bin/javascripts/jquery.nanoscroller.js.map at master · jamesflorentino/nanoScrollerJS</title>
+    <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub" />
+    <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub" />
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-114.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-144.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144.png" />
+    <link rel="logo" type="image/svg" href="https://github-media-downloads.s3.amazonaws.com/github-logo.svg" />
+    <meta property="og:image" content="https://github.global.ssl.fastly.net/images/modules/logos_page/Octocat.png">
+    <meta name="hostname" content="fe17.rs.github.com">
+    <meta name="ruby" content="ruby 1.9.3p194-tcs-github-tcmalloc (2012-05-25, TCS patched 2012-05-27, GitHub v1.0.34) [x86_64-linux]">
+    <link rel="assets" href="https://github.global.ssl.fastly.net/">
+    <link rel="xhr-socket" href="/_sockets" />
+    
+    
+
+
+    <meta name="msapplication-TileImage" content="/windows-tile.png" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta name="selected-link" value="repo_source" data-pjax-transient />
+    <meta content="collector.githubapp.com" name="octolytics-host" /><meta content="github" name="octolytics-app-id" /><meta content="1485753" name="octolytics-actor-id" /><meta content="flyingace" name="octolytics-actor-login" /><meta content="8a7d63633513842e5d161d0741b532139f836ac5b57c0747e1bee3a9e00ffcb0" name="octolytics-actor-hash" />
+    
+
+    
+    
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+
+    <meta content="authenticity_token" name="csrf-param" />
+<meta content="batfszCG+VzSeI/CJ/VCHbQTMq3+F/lKCOttEV5JXXo=" name="csrf-token" />
+
+    <link href="https://github.global.ssl.fastly.net/assets/github-5cef3265073ea21d432560828ca2385fc61c35ea.css" media="all" rel="stylesheet" type="text/css" />
+    <link href="https://github.global.ssl.fastly.net/assets/github2-599048231308405a57ed982f74ba5e249891263a.css" media="all" rel="stylesheet" type="text/css" />
+    
+
+
+      <script src="https://github.global.ssl.fastly.net/assets/frameworks-f86a2975a82dceee28e5afe598d1ebbfd7109d79.js" type="text/javascript"></script>
+      <script src="https://github.global.ssl.fastly.net/assets/github-b4c56179d3cda11abae549aff4f74e9c470520e5.js" type="text/javascript"></script>
+      
+      <meta http-equiv="x-pjax-version" content="7d1824bdbbefb130ceb6b0f25470835c">
+
+        <link data-pjax-transient rel='permalink' href='/jamesflorentino/nanoScrollerJS/blob/6c87dd23de8d2819afd4b450923a09c093ea39fe/bin/javascripts/jquery.nanoscroller.js.map'>
+  <meta property="og:title" content="nanoScrollerJS"/>
+  <meta property="og:type" content="githubog:gitrepository"/>
+  <meta property="og:url" content="https://github.com/jamesflorentino/nanoScrollerJS"/>
+  <meta property="og:image" content="https://github.global.ssl.fastly.net/images/gravatars/gravatar-user-420.png"/>
+  <meta property="og:site_name" content="GitHub"/>
+  <meta property="og:description" content="nanoScrollerJS - A jQuery plugin that offers a simplistic way of implementing Lion OS scrollbars."/>
+
+  <meta name="description" content="nanoScrollerJS - A jQuery plugin that offers a simplistic way of implementing Lion OS scrollbars." />
+
+  <meta content="458310" name="octolytics-dimension-user_id" /><meta content="jamesflorentino" name="octolytics-dimension-user_login" /><meta content="2925780" name="octolytics-dimension-repository_id" /><meta content="jamesflorentino/nanoScrollerJS" name="octolytics-dimension-repository_nwo" /><meta content="true" name="octolytics-dimension-repository_public" /><meta content="false" name="octolytics-dimension-repository_is_fork" /><meta content="2925780" name="octolytics-dimension-repository_network_root_id" /><meta content="jamesflorentino/nanoScrollerJS" name="octolytics-dimension-repository_network_root_nwo" />
+  <link href="https://github.com/jamesflorentino/nanoScrollerJS/commits/master.atom" rel="alternate" title="Recent Commits to nanoScrollerJS:master" type="application/atom+xml" />
+
+  </head>
+
+
+  <body class="logged_in page-blob macintosh vis-public env-production ">
+
+    <div class="wrapper">
+      
+      
+      
+
+
+      <div class="header header-logged-in true">
+  <div class="container clearfix">
+
+    <a class="header-logo-invertocat" href="https://github.com/">
+  <span class="mega-octicon octicon-mark-github"></span>
+</a>
+
+    <div class="divider-vertical"></div>
+
+    
+    <a href="/notifications" class="notification-indicator tooltipped downwards" data-gotokey="n" title="You have no unread notifications">
+        <span class="mail-status all-read"></span>
+</a>    <div class="divider-vertical"></div>
+
+
+      <div class="command-bar js-command-bar  in-repository">
+          <form accept-charset="UTF-8" action="/search" class="command-bar-form" id="top_search_form" method="get">
+
+<input type="text" data-hotkey="/ s" name="q" id="js-command-bar-field" placeholder="Search or type a command" tabindex="1" autocapitalize="off"
+    
+    data-username="flyingace"
+      data-repo="jamesflorentino/nanoScrollerJS"
+      data-branch="master"
+      data-sha="7124de36ba008c1dd10da6f8ee5bacdff4050541"
+  >
+
+    <input type="hidden" name="nwo" value="jamesflorentino/nanoScrollerJS" />
+
+    <div class="select-menu js-menu-container js-select-menu search-context-select-menu">
+      <span class="minibutton select-menu-button js-menu-target">
+        <span class="js-select-button">This repository</span>
+      </span>
+
+      <div class="select-menu-modal-holder js-menu-content js-navigation-container">
+        <div class="select-menu-modal">
+
+          <div class="select-menu-item js-navigation-item js-this-repository-navigation-item selected">
+            <span class="select-menu-item-icon octicon octicon-check"></span>
+            <input type="radio" class="js-search-this-repository" name="search_target" value="repository" checked="checked" />
+            <div class="select-menu-item-text js-select-button-text">This repository</div>
+          </div> <!-- /.select-menu-item -->
+
+          <div class="select-menu-item js-navigation-item js-all-repositories-navigation-item">
+            <span class="select-menu-item-icon octicon octicon-check"></span>
+            <input type="radio" name="search_target" value="global" />
+            <div class="select-menu-item-text js-select-button-text">All repositories</div>
+          </div> <!-- /.select-menu-item -->
+
+        </div>
+      </div>
+    </div>
+
+  <span class="octicon help tooltipped downwards" title="Show command bar help">
+    <span class="octicon octicon-question"></span>
+  </span>
+
+
+  <input type="hidden" name="ref" value="cmdform">
+
+</form>
+        <ul class="top-nav">
+          <li class="explore"><a href="/explore">Explore</a></li>
+            <li><a href="https://gist.github.com">Gist</a></li>
+            <li><a href="/blog">Blog</a></li>
+            <li><a href="https://help.github.com">Help</a></li>
+        </ul>
+      </div>
+
+    
+
+
+  <ul id="user-links">
+    <li>
+      <a href="/flyingace" class="name">
+        <img height="20" src="https://0.gravatar.com/avatar/6d89876e863be80d6337cada3bf9a51a?d=https%3A%2F%2Fidenticons.github.com%2Fd2cecdb8bfb1159ddb6efe8e739cb117.png&amp;s=140" width="20" /> flyingace
+      </a>
+    </li>
+
+      <li>
+        <a href="/new" id="new_repo" class="tooltipped downwards" title="Create a new repo" aria-label="Create a new repo">
+          <span class="octicon octicon-repo-create"></span>
+        </a>
+      </li>
+
+      <li>
+        <a href="/settings/profile" id="account_settings"
+          class="tooltipped downwards"
+          aria-label="Account settings "
+          title="Account settings ">
+          <span class="octicon octicon-tools"></span>
+        </a>
+      </li>
+      <li>
+        <a class="tooltipped downwards" href="/logout" data-method="post" id="logout" title="Sign out" aria-label="Sign out">
+          <span class="octicon octicon-log-out"></span>
+        </a>
+      </li>
+
+  </ul>
+
+<div class="js-new-dropdown-contents hidden">
+  
+
+<ul class="dropdown-menu">
+  <li>
+    <a href="/new"><span class="octicon octicon-repo-create"></span> New repository</a>
+  </li>
+  <li>
+    <a href="/organizations/new"><span class="octicon octicon-organization"></span> New organization</a>
+  </li>
+
+
+
+    <li class="section-title">
+      <span title="jamesflorentino/nanoScrollerJS">This repository</span>
+    </li>
+    <li>
+      <a href="/jamesflorentino/nanoScrollerJS/issues/new"><span class="octicon octicon-issue-opened"></span> New issue</a>
+    </li>
+</ul>
+
+</div>
+
+
+    
+  </div>
+</div>
+
+      
+
+      
+
+
+
+
+          <div class="site" itemscope itemtype="http://schema.org/WebPage">
+    
+    <div class="pagehead repohead instapaper_ignore readability-menu">
+      <div class="container">
+        
+
+<ul class="pagehead-actions">
+
+    <li class="subscription">
+      <form accept-charset="UTF-8" action="/notifications/subscribe" class="js-social-container" data-autosubmit="true" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="authenticity_token" type="hidden" value="batfszCG+VzSeI/CJ/VCHbQTMq3+F/lKCOttEV5JXXo=" /></div>  <input id="repository_id" name="repository_id" type="hidden" value="2925780" />
+
+    <div class="select-menu js-menu-container js-select-menu">
+        <a class="social-count js-social-count" href="/jamesflorentino/nanoScrollerJS/watchers">
+          70
+        </a>
+      <span class="minibutton select-menu-button with-count js-menu-target">
+        <span class="js-select-button">
+          <span class="octicon octicon-eye-watch"></span>
+          Watch
+        </span>
+      </span>
+
+      <div class="select-menu-modal-holder">
+        <div class="select-menu-modal subscription-menu-modal js-menu-content">
+          <div class="select-menu-header">
+            <span class="select-menu-title">Notification status</span>
+            <span class="octicon octicon-remove-close js-menu-close"></span>
+          </div> <!-- /.select-menu-header -->
+
+          <div class="select-menu-list js-navigation-container">
+
+            <div class="select-menu-item js-navigation-item selected">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <div class="select-menu-item-text">
+                <input checked="checked" id="do_included" name="do" type="radio" value="included" />
+                <h4>Not watching</h4>
+                <span class="description">You only receive notifications for discussions in which you participate or are @mentioned.</span>
+                <span class="js-select-button-text hidden-select-button-text">
+                  <span class="octicon octicon-eye-watch"></span>
+                  Watch
+                </span>
+              </div>
+            </div> <!-- /.select-menu-item -->
+
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon octicon-check"></span>
+              <div class="select-menu-item-text">
+                <input id="do_subscribed" name="do" type="radio" value="subscribed" />
+                <h4>Watching</h4>
+                <span class="description">You receive notifications for all discussions in this repository.</span>
+                <span class="js-select-button-text hidden-select-button-text">
+                  <span class="octicon octicon-eye-unwatch"></span>
+                  Unwatch
+                </span>
+              </div>
+            </div> <!-- /.select-menu-item -->
+
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <div class="select-menu-item-text">
+                <input id="do_ignore" name="do" type="radio" value="ignore" />
+                <h4>Ignoring</h4>
+                <span class="description">You do not receive any notifications for discussions in this repository.</span>
+                <span class="js-select-button-text hidden-select-button-text">
+                  <span class="octicon octicon-mute"></span>
+                  Stop ignoring
+                </span>
+              </div>
+            </div> <!-- /.select-menu-item -->
+
+          </div> <!-- /.select-menu-list -->
+
+        </div> <!-- /.select-menu-modal -->
+      </div> <!-- /.select-menu-modal-holder -->
+    </div> <!-- /.select-menu -->
+
+</form>
+    </li>
+
+  <li>
+  
+<div class="js-toggler-container js-social-container starring-container on">
+  <a href="/jamesflorentino/nanoScrollerJS/unstar" class="minibutton with-count js-toggler-target star-button starred upwards" title="Unstar this repo" data-remote="true" data-method="post" rel="nofollow">
+    <span class="octicon octicon-star-delete"></span><span class="text">Unstar</span>
+  </a>
+  <a href="/jamesflorentino/nanoScrollerJS/star" class="minibutton with-count js-toggler-target star-button unstarred upwards" title="Star this repo" data-remote="true" data-method="post" rel="nofollow">
+    <span class="octicon octicon-star"></span><span class="text">Star</span>
+  </a>
+  <a class="social-count js-social-count" href="/jamesflorentino/nanoScrollerJS/stargazers">1,115</a>
+</div>
+
+  </li>
+
+
+        <li>
+          <a href="/jamesflorentino/nanoScrollerJS/fork" class="minibutton with-count js-toggler-target fork-button lighter upwards" title="Fork this repo" rel="nofollow" data-method="post">
+            <span class="octicon octicon-git-branch-create"></span><span class="text">Fork</span>
+          </a>
+          <a href="/jamesflorentino/nanoScrollerJS/network" class="social-count">224</a>
+        </li>
+
+
+</ul>
+
+        <h1 itemscope itemtype="http://data-vocabulary.org/Breadcrumb" class="entry-title public">
+          <span class="repo-label"><span>public</span></span>
+          <span class="mega-octicon octicon-repo"></span>
+          <span class="author">
+            <a href="/jamesflorentino" class="url fn" itemprop="url" rel="author"><span itemprop="title">jamesflorentino</span></a></span
+          ><span class="repohead-name-divider">/</span><strong
+          ><a href="/jamesflorentino/nanoScrollerJS" class="js-current-repository js-repo-home-link">nanoScrollerJS</a></strong>
+
+          <span class="page-context-loader">
+            <img alt="Octocat-spinner-32" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+          </span>
+
+        </h1>
+      </div><!-- /.container -->
+    </div><!-- /.repohead -->
+
+    <div class="container">
+
+      <div class="repository-with-sidebar repo-container ">
+
+        <div class="repository-sidebar">
+            
+
+<div class="repo-nav repo-nav-full js-repository-container-pjax js-octicon-loaders">
+  <div class="repo-nav-contents">
+    <ul class="repo-menu">
+      <li class="tooltipped leftwards" title="Code">
+        <a href="/jamesflorentino/nanoScrollerJS" aria-label="Code" class="js-selected-navigation-item selected" data-gotokey="c" data-pjax="true" data-selected-links="repo_source repo_downloads repo_commits repo_tags repo_branches /jamesflorentino/nanoScrollerJS">
+          <span class="octicon octicon-code"></span> <span class="full-word">Code</span>
+          <img alt="Octocat-spinner-32" class="mini-loader" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>      </li>
+
+        <li class="tooltipped leftwards" title="Issues">
+          <a href="/jamesflorentino/nanoScrollerJS/issues" aria-label="Issues" class="js-selected-navigation-item js-disable-pjax" data-gotokey="i" data-selected-links="repo_issues /jamesflorentino/nanoScrollerJS/issues">
+            <span class="octicon octicon-issue-opened"></span> <span class="full-word">Issues</span>
+            <span class='counter'>22</span>
+            <img alt="Octocat-spinner-32" class="mini-loader" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>        </li>
+
+      <li class="tooltipped leftwards" title="Pull Requests"><a href="/jamesflorentino/nanoScrollerJS/pulls" aria-label="Pull Requests" class="js-selected-navigation-item js-disable-pjax" data-gotokey="p" data-selected-links="repo_pulls /jamesflorentino/nanoScrollerJS/pulls">
+            <span class="octicon octicon-git-pull-request"></span> <span class="full-word">Pull Requests</span>
+            <span class='counter'>0</span>
+            <img alt="Octocat-spinner-32" class="mini-loader" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>      </li>
+
+
+        <li class="tooltipped leftwards" title="Wiki">
+          <a href="/jamesflorentino/nanoScrollerJS/wiki" aria-label="Wiki" class="js-selected-navigation-item " data-pjax="true" data-selected-links="repo_wiki /jamesflorentino/nanoScrollerJS/wiki">
+            <span class="octicon octicon-book"></span> <span class="full-word">Wiki</span>
+            <img alt="Octocat-spinner-32" class="mini-loader" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>        </li>
+    </ul>
+    <div class="repo-menu-separator"></div>
+    <ul class="repo-menu">
+
+      <li class="tooltipped leftwards" title="Pulse">
+        <a href="/jamesflorentino/nanoScrollerJS/pulse" aria-label="Pulse" class="js-selected-navigation-item " data-pjax="true" data-selected-links="pulse /jamesflorentino/nanoScrollerJS/pulse">
+          <span class="octicon octicon-pulse"></span> <span class="full-word">Pulse</span>
+          <img alt="Octocat-spinner-32" class="mini-loader" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>      </li>
+
+      <li class="tooltipped leftwards" title="Graphs">
+        <a href="/jamesflorentino/nanoScrollerJS/graphs" aria-label="Graphs" class="js-selected-navigation-item " data-pjax="true" data-selected-links="repo_graphs repo_contributors /jamesflorentino/nanoScrollerJS/graphs">
+          <span class="octicon octicon-graph"></span> <span class="full-word">Graphs</span>
+          <img alt="Octocat-spinner-32" class="mini-loader" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>      </li>
+
+      <li class="tooltipped leftwards" title="Network">
+        <a href="/jamesflorentino/nanoScrollerJS/network" aria-label="Network" class="js-selected-navigation-item js-disable-pjax" data-selected-links="repo_network /jamesflorentino/nanoScrollerJS/network">
+          <span class="octicon octicon-git-branch"></span> <span class="full-word">Network</span>
+          <img alt="Octocat-spinner-32" class="mini-loader" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>      </li>
+    </ul>
+
+
+  </div>
+</div>
+
+            <div class="only-with-full-nav">
+              
+
+  
+
+<div class="clone-url open"
+  data-protocol-type="http"
+  data-url="/users/set_protocol?protocol_selector=http&amp;protocol_type=clone">
+  <h3><strong>HTTPS</strong> clone URL</h3>
+
+  <input type="text" class="clone js-url-field"
+         value="https://github.com/jamesflorentino/nanoScrollerJS.git" readonly="readonly">
+
+  <span class="js-zeroclipboard url-box-clippy minibutton zeroclipboard-button" data-clipboard-text="https://github.com/jamesflorentino/nanoScrollerJS.git" data-copied-hint="copied!" title="copy to clipboard"><span class="octicon octicon-clippy"></span></span>
+</div>
+
+  
+
+<div class="clone-url "
+  data-protocol-type="ssh"
+  data-url="/users/set_protocol?protocol_selector=ssh&amp;protocol_type=clone">
+  <h3><strong>SSH</strong> clone URL</h3>
+
+  <input type="text" class="clone js-url-field"
+         value="git@github.com:jamesflorentino/nanoScrollerJS.git" readonly="readonly">
+
+  <span class="js-zeroclipboard url-box-clippy minibutton zeroclipboard-button" data-clipboard-text="git@github.com:jamesflorentino/nanoScrollerJS.git" data-copied-hint="copied!" title="copy to clipboard"><span class="octicon octicon-clippy"></span></span>
+</div>
+
+  
+
+<div class="clone-url "
+  data-protocol-type="subversion"
+  data-url="/users/set_protocol?protocol_selector=subversion&amp;protocol_type=clone">
+  <h3><strong>Subversion</strong> checkout URL</h3>
+
+  <input type="text" class="clone js-url-field"
+         value="https://github.com/jamesflorentino/nanoScrollerJS" readonly="readonly">
+
+  <span class="js-zeroclipboard url-box-clippy minibutton zeroclipboard-button" data-clipboard-text="https://github.com/jamesflorentino/nanoScrollerJS" data-copied-hint="copied!" title="copy to clipboard"><span class="octicon octicon-clippy"></span></span>
+</div>
+
+
+
+<p class="clone-options">You can clone with
+    <a href="#" class="js-clone-selector" data-protocol="http">HTTPS</a>,
+    <a href="#" class="js-clone-selector" data-protocol="ssh">SSH</a>,
+    <a href="#" class="js-clone-selector" data-protocol="subversion">Subversion</a>,
+  and <a href="https://help.github.com/articles/which-remote-url-should-i-use">other methods.</a>
+</p>
+
+  <a href="github-mac://openRepo/https://github.com/jamesflorentino/nanoScrollerJS" class="minibutton sidebar-button">
+    <span class="octicon octicon-device-desktop"></span>
+    Clone in Desktop
+  </a>
+
+
+                <a href="/jamesflorentino/nanoScrollerJS/archive/master.zip"
+                   class="minibutton sidebar-button"
+                   title="Download this repository as a zip file"
+                   rel="nofollow">
+                  <span class="octicon octicon-cloud-download"></span>
+                  Download ZIP
+                </a>
+            </div>
+        </div><!-- /.repository-sidebar -->
+
+        <div id="js-repo-pjax-container" class="repository-content context-loader-container" data-pjax-container>
+          
+
+
+<!-- blob contrib key: blob_contributors:v21:8e6769091ee90ca31cda774ac8d2c8a3 -->
+<!-- blob contrib frag key: views10/v8/blob_contributors:v21:8e6769091ee90ca31cda774ac8d2c8a3 -->
+
+<p title="This is a placeholder element" class="js-history-link-replace hidden"></p>
+
+<a href="/jamesflorentino/nanoScrollerJS/find/master" data-pjax data-hotkey="t" style="display:none">Show File Finder</a>
+
+<div class="file-navigation">
+  
+
+
+<div class="select-menu js-menu-container js-select-menu" >
+  <span class="minibutton select-menu-button js-menu-target" data-hotkey="w"
+    data-master-branch="master"
+    data-ref="master" role="button" aria-label="Switch branches or tags">
+    <span class="octicon octicon-git-branch"></span>
+    <i>branch:</i>
+    <span class="js-select-button">master</span>
+  </span>
+
+  <div class="select-menu-modal-holder js-menu-content js-navigation-container" data-pjax>
+
+    <div class="select-menu-modal">
+      <div class="select-menu-header">
+        <span class="select-menu-title">Switch branches/tags</span>
+        <span class="octicon octicon-remove-close js-menu-close"></span>
+      </div> <!-- /.select-menu-header -->
+
+      <div class="select-menu-filters">
+        <div class="select-menu-text-filter">
+          <input type="text" aria-label="Filter branches/tags" id="context-commitish-filter-field" class="js-filterable-field js-navigation-enable" placeholder="Filter branches/tags">
+        </div>
+        <div class="select-menu-tabs">
+          <ul>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="branches" class="js-select-menu-tab">Branches</a>
+            </li>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="tags" class="js-select-menu-tab">Tags</a>
+            </li>
+          </ul>
+        </div><!-- /.select-menu-tabs -->
+      </div><!-- /.select-menu-filters -->
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="branches">
+
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jamesflorentino/nanoScrollerJS/blob/feature-horizontal-wip/bin/javascripts/jquery.nanoscroller.js.map" class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target" data-name="feature-horizontal-wip" data-skip-pjax="true" rel="nofollow" title="feature-horizontal-wip">feature-horizontal-wip</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jamesflorentino/nanoScrollerJS/blob/gh-pages/bin/javascripts/jquery.nanoscroller.js.map" class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target" data-name="gh-pages" data-skip-pjax="true" rel="nofollow" title="gh-pages">gh-pages</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item selected">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jamesflorentino/nanoScrollerJS/blob/master/bin/javascripts/jquery.nanoscroller.js.map" class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target" data-name="master" data-skip-pjax="true" rel="nofollow" title="master">master</a>
+            </div> <!-- /.select-menu-item -->
+        </div>
+
+          <div class="select-menu-no-results">Nothing to show</div>
+      </div> <!-- /.select-menu-list -->
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="tags">
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jamesflorentino/nanoScrollerJS/tree/0.7.3/bin/javascripts/jquery.nanoscroller.js.map" class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target" data-name="0.7.3" data-skip-pjax="true" rel="nofollow" title="0.7.3">0.7.3</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jamesflorentino/nanoScrollerJS/tree/0.7.2/bin/javascripts/jquery.nanoscroller.js.map" class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target" data-name="0.7.2" data-skip-pjax="true" rel="nofollow" title="0.7.2">0.7.2</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jamesflorentino/nanoScrollerJS/tree/0.7.1/bin/javascripts/jquery.nanoscroller.js.map" class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target" data-name="0.7.1" data-skip-pjax="true" rel="nofollow" title="0.7.1">0.7.1</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jamesflorentino/nanoScrollerJS/tree/0.7/bin/javascripts/jquery.nanoscroller.js.map" class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target" data-name="0.7" data-skip-pjax="true" rel="nofollow" title="0.7">0.7</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jamesflorentino/nanoScrollerJS/tree/0.6.9/bin/javascripts/jquery.nanoscroller.js.map" class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target" data-name="0.6.9" data-skip-pjax="true" rel="nofollow" title="0.6.9">0.6.9</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jamesflorentino/nanoScrollerJS/tree/0.6.8/bin/javascripts/jquery.nanoscroller.js.map" class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target" data-name="0.6.8" data-skip-pjax="true" rel="nofollow" title="0.6.8">0.6.8</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jamesflorentino/nanoScrollerJS/tree/0.6.7/bin/javascripts/jquery.nanoscroller.js.map" class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target" data-name="0.6.7" data-skip-pjax="true" rel="nofollow" title="0.6.7">0.6.7</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jamesflorentino/nanoScrollerJS/tree/0.6.6/bin/javascripts/jquery.nanoscroller.js.map" class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target" data-name="0.6.6" data-skip-pjax="true" rel="nofollow" title="0.6.6">0.6.6</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jamesflorentino/nanoScrollerJS/tree/0.6.5/bin/javascripts/jquery.nanoscroller.js.map" class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target" data-name="0.6.5" data-skip-pjax="true" rel="nofollow" title="0.6.5">0.6.5</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jamesflorentino/nanoScrollerJS/tree/0.6.4/bin/javascripts/jquery.nanoscroller.js.map" class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target" data-name="0.6.4" data-skip-pjax="true" rel="nofollow" title="0.6.4">0.6.4</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jamesflorentino/nanoScrollerJS/tree/0.6.3/bin/javascripts/jquery.nanoscroller.js.map" class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target" data-name="0.6.3" data-skip-pjax="true" rel="nofollow" title="0.6.3">0.6.3</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jamesflorentino/nanoScrollerJS/tree/0.6.2/bin/javascripts/jquery.nanoscroller.js.map" class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target" data-name="0.6.2" data-skip-pjax="true" rel="nofollow" title="0.6.2">0.6.2</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jamesflorentino/nanoScrollerJS/tree/0.6.1/bin/javascripts/jquery.nanoscroller.js.map" class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target" data-name="0.6.1" data-skip-pjax="true" rel="nofollow" title="0.6.1">0.6.1</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jamesflorentino/nanoScrollerJS/tree/0.6.0/bin/javascripts/jquery.nanoscroller.js.map" class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target" data-name="0.6.0" data-skip-pjax="true" rel="nofollow" title="0.6.0">0.6.0</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jamesflorentino/nanoScrollerJS/tree/0.5.9/bin/javascripts/jquery.nanoscroller.js.map" class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target" data-name="0.5.9" data-skip-pjax="true" rel="nofollow" title="0.5.9">0.5.9</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jamesflorentino/nanoScrollerJS/tree/0.5.8/bin/javascripts/jquery.nanoscroller.js.map" class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target" data-name="0.5.8" data-skip-pjax="true" rel="nofollow" title="0.5.8">0.5.8</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jamesflorentino/nanoScrollerJS/tree/0.5.7/bin/javascripts/jquery.nanoscroller.js.map" class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target" data-name="0.5.7" data-skip-pjax="true" rel="nofollow" title="0.5.7">0.5.7</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/jamesflorentino/nanoScrollerJS/tree/0.5.6/bin/javascripts/jquery.nanoscroller.js.map" class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target" data-name="0.5.6" data-skip-pjax="true" rel="nofollow" title="0.5.6">0.5.6</a>
+            </div> <!-- /.select-menu-item -->
+        </div>
+
+        <div class="select-menu-no-results">Nothing to show</div>
+      </div> <!-- /.select-menu-list -->
+
+    </div> <!-- /.select-menu-modal -->
+  </div> <!-- /.select-menu-modal-holder -->
+</div> <!-- /.select-menu -->
+
+  <div class="breadcrumb">
+    <span class='repo-root js-repo-root'><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/jamesflorentino/nanoScrollerJS" data-branch="master" data-direction="back" data-pjax="true" itemscope="url"><span itemprop="title">nanoScrollerJS</span></a></span></span><span class="separator"> / </span><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/jamesflorentino/nanoScrollerJS/tree/master/bin" data-branch="master" data-direction="back" data-pjax="true" itemscope="url"><span itemprop="title">bin</span></a></span><span class="separator"> / </span><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/jamesflorentino/nanoScrollerJS/tree/master/bin/javascripts" data-branch="master" data-direction="back" data-pjax="true" itemscope="url"><span itemprop="title">javascripts</span></a></span><span class="separator"> / </span><strong class="final-path">jquery.nanoscroller.js.map</strong> <span class="js-zeroclipboard minibutton zeroclipboard-button" data-clipboard-text="bin/javascripts/jquery.nanoscroller.js.map" data-copied-hint="copied!" title="copy to clipboard"><span class="octicon octicon-clippy"></span></span>
+  </div>
+</div>
+
+
+  
+  <div class="commit file-history-tease">
+    <img class="main-avatar" height="24" src="https://1.gravatar.com/avatar/c74d0bca3c2e143a52b53598ee8a2de9?d=https%3A%2F%2Fidenticons.github.com%2Fbc67fd1b9eb7173ffe3bb3effac0c486.png&amp;s=140" width="24" />
+    <span class="author"><a href="/amchang" rel="author">amchang</a></span>
+    <time class="js-relative-date" datetime="2013-08-06T17:02:29-07:00" title="2013-08-06 17:02:29">August 06, 2013</time>
+    <div class="commit-title">
+        <a href="/jamesflorentino/nanoScrollerJS/commit/31efbf98397684d47fdaeb432e5efe108e920bca" class="message" data-pjax="true" title="Allow a flexible tabindex, helps for cases when the scrollbar needs to b...
+
+...e ignored no matter what">Allow a flexible tabindex, helps for cases when the scrollbar needs t…</a>
+    </div>
+
+    <div class="participation">
+      <p class="quickstat"><a href="#blob_contributors_box" rel="facebox"><strong>3</strong> contributors</a></p>
+          <a class="avatar tooltipped downwards" title="kristerkari" href="/jamesflorentino/nanoScrollerJS/commits/master/bin/javascripts/jquery.nanoscroller.js.map?author=kristerkari"><img height="20" src="https://1.gravatar.com/avatar/2a8dbe5e246cf844376da5c8e413d16c?d=https%3A%2F%2Fidenticons.github.com%2F7c57436a7c8108474f5192e938053535.png&amp;s=140" width="20" /></a>
+    <a class="avatar tooltipped downwards" title="weareoutman" href="/jamesflorentino/nanoScrollerJS/commits/master/bin/javascripts/jquery.nanoscroller.js.map?author=weareoutman"><img height="20" src="https://1.gravatar.com/avatar/e5afef2d323c9d638524dabd4009bef8?d=https%3A%2F%2Fidenticons.github.com%2Fc1169566d37cb76a6ce0040d7608d5a1.png&amp;s=140" width="20" /></a>
+    <a class="avatar tooltipped downwards" title="amchang" href="/jamesflorentino/nanoScrollerJS/commits/master/bin/javascripts/jquery.nanoscroller.js.map?author=amchang"><img height="20" src="https://1.gravatar.com/avatar/c74d0bca3c2e143a52b53598ee8a2de9?d=https%3A%2F%2Fidenticons.github.com%2Fbc67fd1b9eb7173ffe3bb3effac0c486.png&amp;s=140" width="20" /></a>
+
+
+    </div>
+    <div id="blob_contributors_box" style="display:none">
+      <h2 class="facebox-header">Users who have contributed to this file</h2>
+      <ul class="facebox-user-list">
+        <li class="facebox-user-list-item">
+          <img height="24" src="https://1.gravatar.com/avatar/2a8dbe5e246cf844376da5c8e413d16c?d=https%3A%2F%2Fidenticons.github.com%2F7c57436a7c8108474f5192e938053535.png&amp;s=140" width="24" />
+          <a href="/kristerkari">kristerkari</a>
+        </li>
+        <li class="facebox-user-list-item">
+          <img height="24" src="https://1.gravatar.com/avatar/e5afef2d323c9d638524dabd4009bef8?d=https%3A%2F%2Fidenticons.github.com%2Fc1169566d37cb76a6ce0040d7608d5a1.png&amp;s=140" width="24" />
+          <a href="/weareoutman">weareoutman</a>
+        </li>
+        <li class="facebox-user-list-item">
+          <img height="24" src="https://1.gravatar.com/avatar/c74d0bca3c2e143a52b53598ee8a2de9?d=https%3A%2F%2Fidenticons.github.com%2Fbc67fd1b9eb7173ffe3bb3effac0c486.png&amp;s=140" width="24" />
+          <a href="/amchang">amchang</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+
+<div id="files" class="bubble">
+  <div class="file">
+    <div class="meta">
+      <div class="info">
+        <span class="icon"><b class="octicon octicon-file-text"></b></span>
+        <span class="mode" title="File Mode">file</span>
+          <span>10 lines (10 sloc)</span>
+        <span>10.11 kb</span>
+      </div>
+      <div class="actions">
+        <div class="button-group">
+                <a class="minibutton tooltipped leftwards"
+                   title="Clicking this button will automatically fork this project so you can edit the file"
+                   href="/jamesflorentino/nanoScrollerJS/edit/master/bin/javascripts/jquery.nanoscroller.js.map"
+                   data-method="post" rel="nofollow">Edit</a>
+          <a href="/jamesflorentino/nanoScrollerJS/raw/master/bin/javascripts/jquery.nanoscroller.js.map" class="button minibutton " id="raw-url">Raw</a>
+            <a href="/jamesflorentino/nanoScrollerJS/blame/master/bin/javascripts/jquery.nanoscroller.js.map" class="button minibutton ">Blame</a>
+          <a href="/jamesflorentino/nanoScrollerJS/commits/master/bin/javascripts/jquery.nanoscroller.js.map" class="button minibutton " rel="nofollow">History</a>
+        </div><!-- /.button-group -->
+            <a class="minibutton danger empty-icon tooltipped downwards"
+               href="/jamesflorentino/nanoScrollerJS/delete/master/bin/javascripts/jquery.nanoscroller.js.map"
+               title="Fork this project and delete file"
+               data-method="post" data-test-id="delete-blob-file" rel="nofollow">
+            Delete
+          </a>
+      </div><!-- /.actions -->
+
+    </div>
+        <div class="blob-wrapper data type-text js-blob-data">
+        <table class="file-code file-diff">
+          <tr class="file-code-line">
+            <td class="blob-line-nums">
+              <span id="L1" rel="#L1">1</span>
+<span id="L2" rel="#L2">2</span>
+<span id="L3" rel="#L3">3</span>
+<span id="L4" rel="#L4">4</span>
+<span id="L5" rel="#L5">5</span>
+<span id="L6" rel="#L6">6</span>
+<span id="L7" rel="#L7">7</span>
+<span id="L8" rel="#L8">8</span>
+<span id="L9" rel="#L9">9</span>
+<span id="L10" rel="#L10">10</span>
+
+            </td>
+            <td class="blob-line-code">
+                    <div class="highlight"><pre><div class='line' id='LC1'>{</div><div class='line' id='LC2'>&nbsp;&nbsp;&quot;version&quot;: 3,</div><div class='line' id='LC3'>&nbsp;&nbsp;&quot;file&quot;: &quot;jquery.nanoscroller.js&quot;,</div><div class='line' id='LC4'>&nbsp;&nbsp;&quot;sourceRoot&quot;: &quot;../../coffeescripts/&quot;,</div><div class='line' id='LC5'>&nbsp;&nbsp;&quot;sources&quot;: [</div><div class='line' id='LC6'>&nbsp;&nbsp;&nbsp;&nbsp;&quot;jquery.nanoscroller.coffee&quot;</div><div class='line' id='LC7'>&nbsp;&nbsp;],</div><div class='line' id='LC8'>&nbsp;&nbsp;&quot;names&quot;: [],</div><div class='line' id='LC9'>&nbsp;&nbsp;&quot;mappings&quot;: &quot;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&quot;</div><div class='line' id='LC10'>}</div></pre></div>
+            </td>
+          </tr>
+        </table>
+  </div>
+
+  </div>
+</div>
+
+<a href="#jump-to-line" rel="facebox[.linejump]" data-hotkey="l" class="js-jump-to-line" style="display:none">Jump to Line</a>
+<div id="jump-to-line" style="display:none">
+  <form accept-charset="UTF-8" class="js-jump-to-line-form">
+    <input class="linejump-input js-jump-to-line-field" type="text" placeholder="Jump to line&hellip;" autofocus>
+    <button type="submit" class="button">Go</button>
+  </form>
+</div>
+
+        </div>
+
+      </div><!-- /.repo-container -->
+      <div class="modal-backdrop"></div>
+    </div><!-- /.container -->
+  </div><!-- /.site -->
+
+
+    </div><!-- /.wrapper -->
+
+      <div class="container">
+  <div class="site-footer">
+    <ul class="site-footer-links right">
+      <li><a href="https://status.github.com/">Status</a></li>
+      <li><a href="http://developer.github.com">API</a></li>
+      <li><a href="http://training.github.com">Training</a></li>
+      <li><a href="http://shop.github.com">Shop</a></li>
+      <li><a href="/blog">Blog</a></li>
+      <li><a href="/about">About</a></li>
+
+    </ul>
+
+    <a href="/">
+      <span class="mega-octicon octicon-mark-github"></span>
+    </a>
+
+    <ul class="site-footer-links">
+      <li>&copy; 2013 <span title="0.07641s from fe17.rs.github.com">GitHub</span>, Inc.</li>
+        <li><a href="/site/terms">Terms</a></li>
+        <li><a href="/site/privacy">Privacy</a></li>
+        <li><a href="/security">Security</a></li>
+        <li><a href="/contact">Contact</a></li>
+    </ul>
+  </div><!-- /.site-footer -->
+</div><!-- /.container -->
+
+
+    <div class="fullscreen-overlay js-fullscreen-overlay" id="fullscreen_overlay">
+  <div class="fullscreen-container js-fullscreen-container">
+    <div class="textarea-wrap">
+      <textarea name="fullscreen-contents" id="fullscreen-contents" class="js-fullscreen-contents" placeholder="" data-suggester="fullscreen_suggester"></textarea>
+          <div class="suggester-container">
+              <div class="suggester fullscreen-suggester js-navigation-container" id="fullscreen_suggester"
+                 data-url="/jamesflorentino/nanoScrollerJS/suggestions/commit">
+              </div>
+          </div>
+    </div>
+  </div>
+  <div class="fullscreen-sidebar">
+    <a href="#" class="exit-fullscreen js-exit-fullscreen tooltipped leftwards" title="Exit Zen Mode">
+      <span class="mega-octicon octicon-screen-normal"></span>
+    </a>
+    <a href="#" class="theme-switcher js-theme-switcher tooltipped leftwards"
+      title="Switch themes">
+      <span class="octicon octicon-color-mode"></span>
+    </a>
+  </div>
+</div>
+
+
+
+    <div id="ajax-error-message" class="flash flash-error">
+      <span class="octicon octicon-alert"></span>
+      <a href="#" class="octicon octicon-remove-close close ajax-error-dismiss"></a>
+      Something went wrong with that request. Please try again.
+    </div>
+
+    
+  </body>
+</html>
+

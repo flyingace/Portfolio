@@ -1,5 +1,21 @@
 [
     {
+        "projectName": "Citi Private Bank In View - Portfolio Module",
+        "projectID": "citiInViewPortfolio",
+        "thumbURL": "img/thumbs/citiPortfolioThumb.jpg",
+        "techUsed": "HTML5, CSS3, JavaScript, Backbone.js, Underscore.js, JQuery, Require.js, SCSS",
+        "projectDescription": "For Citibank's Private Banking division, I led front-end development of the Portfolio module of Citi's comprehensive private banking mobile application, In View. In View was designed for use by private bankers managing numerous accounts of their own and their clients' financial assets. Built using the Backbone.js framework, I was responsible for instructing a small team of front-end developers in the use of Backbone.js and subsequently guiding them through debugging and troubleshooting. I coded the module's overall structure, with an eye to keeping the DOM light in an app whose primary function was the display of sortable and filterable data retrieved from the back end. While using the module, the various panels expand and contract, slide on and off the stage. These animations were coded according to best practices for achieving hardware acceleration, having them handled by the device's GPU. In addition to the application's structure, I also coded the panels for applying filters, sorting and grouping accounts and choosing the currency used in displaying monetary values. Along with Backbone.js, Underscore.js was used for dynamic templating, JQuery for expedited coding and Require.js for managing dependencies. CSS was written in SCSS.",
+        "slides": [
+            "img/large/CitiPortfolio01.jpg",
+            "img/large/CitiPortfolio02.jpg",
+            "img/large/CitiPortfolio03.jpg",
+            "img/large/CitiPortfolio04.jpg",
+            "img/large/CitiPortfolio05.jpg",
+            "img/large/CitiPortfolio06.jpg",
+            "img/large/CitiPortfolio07.jpg"
+        ]
+    },
+    {
         "projectName": "Chess Clock App",
         "projectID": "chessClockApp",
         "thumbURL": "img/thumbs/chessClockThumb.jpg",

@@ -29,30 +29,32 @@ define(['backbone', 'jquery', 'underscore', 'nanoscroller', 'text!templates/proj
                 return this;
             },
 
+
+            //TODO: Should this be broken down into a few small functions?
             toggleDescriptionVisibility: function () {
                 var $description = $('.project-description'),
-                    $descriptionText = $('.description-text');
+                    $descriptionText = $('.description-text'),
                     $descriptionHeight = 30, //taken from padding on top and bottom of $descriptionText (which returns a string, so...)
                     $descriptionTop = $description.position().top,
                     $slideButton = $('.slide-button');
 
                 $('.description-text').children().each(function () {
                     $descriptionHeight += $(this).outerHeight(true);
-                    console.log($descriptionHeight);
-//                    console.log(child);
-                    console.log($(this).outerHeight());
+                    //console.log($descriptionHeight);
+//                    //console.log(child);
+                    //console.log($(this).outerHeight());
                 });
 
-                console.log($descriptionTop, $descriptionHeight);
+                //console.log($descriptionTop, $descriptionHeight);
 
                 $description.toggleClass('shown');
                 $slideButton.toggleClass('hidden');
 
                 if ($description.hasClass('shown')) {
                     var newTop = $descriptionTop - $descriptionHeight;
-                    console.log(newTop);
+                    //console.log(newTop);
                     newTop = (newTop > 0) ? newTop : 0;
-                    console.log(newTop);
+                    //console.log(newTop);
                     $description.css('top', newTop);
 
                     if (Port.isMobileDevice) {
@@ -61,7 +63,7 @@ define(['backbone', 'jquery', 'underscore', 'nanoscroller', 'text!templates/proj
                         //TODO: Using setTimeout here is an unfortunate way of dealing with nanoScroller's refusal to render. Can this be resolved in another way?
                         setTimeout(function () {
                             $('.project-description.nano').nanoScroller({ iOSNativeScrolling: true, preventPageScrolling: true });
-                        }, 500)
+                        }, 500);
                     }
 
                 } else {

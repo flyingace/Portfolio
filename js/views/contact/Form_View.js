@@ -27,6 +27,7 @@ define(['backbone', 'jquery', 'underscore', 'text!templates/formTemplate.html'],
                 this.validateFormData();
             },
 
+            //TODO: This could probably be broken down into several smaller functions
             validateFormData: function () {
 
                 var $nameField = $('#contact-name'),
@@ -120,7 +121,7 @@ define(['backbone', 'jquery', 'underscore', 'text!templates/formTemplate.html'],
                 if ($contactForm.hasClass('hidden')) {
                     $contactForm.removeClass('hidden').trigger('reset');
                     $statusFrame.addClass('hidden');
-                    $status.html("Sending...")
+                    $status.html("Sending...");
                 }
 
             },
