@@ -30,8 +30,8 @@ define(['backbone', 'jquery', 'underscore'],
             },
 
             gotoFormThanks: function() {
-                console.log(event);
-                console.log("youve gone to the thanks page");
+                // console.log(event);
+                // console.log("youve gone to the thanks page");
 
             }
     });

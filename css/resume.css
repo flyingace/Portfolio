@@ -1,95 +1,122 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300,600,800);
+
 @font-face {
-  font-family: 'biz_icons';
-  src: url("../fonts/biz_icons/biz_icons.eot?667026");
-  src: url("../fonts/biz_icons/biz_icons.eot?667026#iefix") format("embedded-opentype"), url("../fonts/biz_icons/biz_icons.woff?667026") format("woff"), url("../fonts/biz_icons/biz_icons.ttf?667026") format("truetype"), url("../fonts/biz_icons/biz_icons.svg?667026#biz_icons") format("svg");
-  font-weight: normal;
-  font-style: normal; }
+    font-family: 'biz_icons';
+    src: url("../fonts/biz_icons/biz_icons.eot?667026");
+    src: url("../fonts/biz_icons/biz_icons.eot?667026#iefix") format("embedded-opentype"), url("../fonts/biz_icons/biz_icons.woff?667026") format("woff"), url("../fonts/biz_icons/biz_icons.ttf?667026") format("truetype"), url("../fonts/biz_icons/biz_icons.svg?667026#biz_icons") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
 
 #main .sliding-panel#info-panel .content-pane .content-container div#resume .job .job-head .job-dates, #main .sliding-panel#info-panel .content-pane .content-container div#resume .job .job-head .job-title, #main .sliding-panel#info-panel .content-pane .content-container div#resume .job .job-desc, #main .sliding-panel#info-panel .content-pane .content-container div#resume .job .job-desc p {
-  -webkit-user-select: none;
-  /* Chrome all / Safari all */
-  -moz-user-select: none;
-  /* Firefox all */
-  -ms-user-select: none;
-  /* IE 10+ */ }
+    -webkit-user-select: none;
+    /* Chrome all / Safari all */
+    -moz-user-select: none;
+    /* Firefox all */
+    -ms-user-select: none;
+    /* IE 10+ */ }
 
 @keyframes panelShown {
-  0% {
-    height: 45px;
-    width: 45px; }
+    0% {
+        height: 45px;
+        width: 45px; }
 
-  100% {
-    height: auto;
-    width: 460px; } }
+    100% {
+        height: auto;
+        width: 460px; }
+}
 
 @-moz-keyframes panelShown {
-  0% {
-    height: 45px;
-    width: 45px; }
+    0% {
+        height: 45px;
+        width: 45px; }
 
-  100% {
-    height: auto;
-    width: 460px; } }
+    100% {
+        height: auto;
+        width: 460px; }
+}
 
 @-webkit-keyframes panelShown {
-  0% {
-    height: 45px;
-    width: 45px; }
+    0% {
+        height: 45px;
+        width: 45px; }
 
-  100% {
-    height: auto;
-    width: 460px; } }
+    100% {
+        height: auto;
+        width: 460px; }
+}
 
 @keyframes panelHidden {
-  0% {
-    height: auto;
-    width: 460px; }
+    0% {
+        height: auto;
+        width: 460px; }
 
-  100% {
-    height: 45px;
-    width: 45px; } }
+    100% {
+        height: 45px;
+        width: 45px; }
+}
 
 @-moz-keyframes panelHidden {
-  0% {
-    height: auto;
-    width: 460px; }
+    0% {
+        height: auto;
+        width: 460px; }
 
-  100% {
-    height: 45px;
-    width: 45px; } }
+    100% {
+        height: 45px;
+        width: 45px; }
+}
 
 @-webkit-keyframes panelHidden {
-  0% {
-    height: auto;
-    width: 460px; }
+    0% {
+        height: auto;
+        width: 460px; }
 
-  100% {
-    height: 45px;
-    width: 45px; } }
+    100% {
+        height: 45px;
+        width: 45px; }
+}
 
 #main .nano .pane {
-  z-index: 300;
-  margin: 10px 5px; }
+    z-index: 300;
+    margin: 10px 5px; }
+
 #main *:focus, #main *:active {
-  outline: none; }
+    outline: none; }
 
 #main .sliding-panel#info-panel .content-pane .content-container div#resume {
-  font-family: "Open Sans", sans-serif;
-  font-weight: 300;
-  color: #2e504c;
-  font-size: 16px;
-  padding: 0 5% 0 0; }
-  #main .sliding-panel#info-panel .content-pane .content-container div#resume strong {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    color: #2e504c;
+    font-size: 16px;
+    padding: 2% 5% 0 0; }
+
+#main .sliding-panel#info-panel .content-pane .content-container div#resume strong {
     font-weight: 600; }
-  #main .sliding-panel#info-panel .content-pane .content-container div#resume em {
+
+#main .sliding-panel#info-panel .content-pane .content-container div#resume em {
     font-style: italic; }
-  #main .sliding-panel#info-panel .content-pane .content-container div#resume .intro {
+
+#main .sliding-panel#info-panel .content-pane .content-container div#resume p {
+    margin: 0; }
+
+#main .sliding-panel#info-panel .content-pane .content-container div#resume p a {
+    color: white;
+    text-decoration: none; }
+
+#main .sliding-panel#info-panel .content-pane .content-container div#resume p a:hover {
+    text-decoration: underline; }
+
+#main .sliding-panel#info-panel .content-pane .content-container div#resume hr {
+    border-top-color: #2e504c;
+    margin: .6em 0; }
+
+#main .sliding-panel#info-panel .content-pane .content-container div#resume .intro {
     font-size: 16px;
     line-height: 1.4;
     margin: 0 0 8px 0;
     text-align: left; }
-  #main .sliding-panel#info-panel .content-pane .content-container div#resume .job {
+
+#main .sliding-panel#info-panel .content-pane .content-container div#resume .job {
     width: 100%;
     height: auto;
     margin: 0 0 3px 0;
@@ -99,47 +126,70 @@
     -webkit-border-radius: 3px;
     overflow: hidden;
     clear: both;
-    transition: all 0.2s; }
-    #main .sliding-panel#info-panel .content-pane .content-container div#resume .job .job-head {
-      height: auto; }
-      #main .sliding-panel#info-panel .content-pane .content-container div#resume .job .job-head .job-dates {
-        width: 100px;
-        margin: 0 10px 0 0;
-        clear: right; }
-        @media only screen and (min-width: 1024px) {
-          #main .sliding-panel#info-panel .content-pane .content-container div#resume .job .job-head .job-dates {
-            clear: none;
-            float: left; } }
-      #main .sliding-panel#info-panel .content-pane .content-container div#resume .job .job-head .job-title {
-        font-weight: 600;
-        font-size: 16px;
-        height: auto; }
-        @media only screen and (min-width: 1024px) {
-          #main .sliding-panel#info-panel .content-pane .content-container div#resume .job .job-head .job-title {
-            float: left; } }
-    #main .sliding-panel#info-panel .content-pane .content-container div#resume .job .job-head:after {
-      content: "";
-      display: table;
-      clear: both; }
-    #main .sliding-panel#info-panel .content-pane .content-container div#resume .job .job-desc {
-      clear: both;
-      display: none; }
-      #main .sliding-panel#info-panel .content-pane .content-container div#resume .job .job-desc p {
-        margin: 4px 0 0 0;
-        line-height: 1.4; }
-  #main .sliding-panel#info-panel .content-pane .content-container div#resume .job.hover {
+    transition: all .2s; }
+
+#main .sliding-panel#info-panel .content-pane .content-container div#resume .job .job-head {
+    height: auto; }
+
+#main .sliding-panel#info-panel .content-pane .content-container div#resume .job .job-head .job-dates {
+    width: 100px;
+    margin: 0 10px 0 0;
+    clear: right; }
+
+@media only screen and (min-width: 1024px) {
+    #main .sliding-panel#info-panel .content-pane .content-container div#resume .job .job-head .job-dates {
+        clear: none;
+        float: left; }
+}
+
+#main .sliding-panel#info-panel .content-pane .content-container div#resume .job .job-head .job-title {
+    font-weight: 600;
+    font-size: 16px;
+    height: auto; }
+
+@media only screen and (min-width: 1024px) {
+    #main .sliding-panel#info-panel .content-pane .content-container div#resume .job .job-head .job-title {
+        float: left; }
+}
+
+#main .sliding-panel#info-panel .content-pane .content-container div#resume .job .job-head:after {
+    content: "";
+    display: table;
+    clear: both; }
+
+#main .sliding-panel#info-panel .content-pane .content-container div#resume .job .job-desc {
+    clear: both;
+    display: none; }
+
+#main .sliding-panel#info-panel .content-pane .content-container div#resume .job .job-desc p {
+    margin: 4px 0 0 0;
+    line-height: 1.4; }
+
+#main .sliding-panel#info-panel .content-pane .content-container div#resume .job.hover {
     color: #bac8c6;
     background-color: #2e504c;
     padding: 10px 8px; }
-  #main .sliding-panel#info-panel .content-pane .content-container div#resume .job.selected {
+
+#main .sliding-panel#info-panel .content-pane .content-container div#resume .job.selected {
     color: #2e504c;
     background-color: transparent;
     padding: 9px 7px;
     border: 1px solid #2e504c; }
-    #main .sliding-panel#info-panel .content-pane .content-container div#resume .job.selected .job-desc {
-      display: block; }
-  #main .sliding-panel#info-panel .content-pane .content-container div#resume p.section-title {
+
+#main .sliding-panel#info-panel .content-pane .content-container div#resume .job.selected .job-desc {
+    display: block; }
+
+#main .sliding-panel#info-panel .content-pane .content-container div#resume p.section-title {
     margin: 6px 0 0 0;
     font-weight: 600; }
-  #main .sliding-panel#info-panel .content-pane .content-container div#resume p.section-title + p {
+
+#main .sliding-panel#info-panel .content-pane .content-container div#resume p.section-title + p {
     margin: 0 0 4px 0; }
+
+#main .sliding-panel#info-panel .content-pane .content-container div#resume #linkedIn-link {
+    padding-left: 20px;
+    background: url("../img/InBug-16px_0.png") no-repeat 0 3px; }
+
+#main .sliding-panel#info-panel .content-pane .content-container div#resume #gitHub-link {
+    padding-left: 20px;
+    background: url("../img/GitHub-Mark-16px.png") no-repeat 0 3px; }
